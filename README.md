@@ -12,7 +12,7 @@
 This is ready to use template for rest api testing.
 
 # running using maven
-`mvn clean verify -Denvironment=staging -DsuiteXmlFile=backend-local.xml
+`mvn clean verify -Denvironment=staging -DsuiteXmlFile=backend-sanity.xml
 `
 
 
