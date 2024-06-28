@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions 1.0//EN"
+        "http://www.puppycrawl.com/dtds/suppressions_1_0.dtd">
+
+<suppressions>
+    <!-- <suppress files="com[\\/]project" checks=".*"/> -->
+    <!-- Don't check JavaDoc on package-info. -->
+    <suppress checks="JavadocStyleCheck" files="package-info.java"/>
+    <!-- Don't check files in resources -->
+    <suppress files="src[\\/]main[\\/]resources[\\/]" checks=".*"/>
+    <suppress files=".*_.java" checks=".*"/>
+
+</suppressions>
